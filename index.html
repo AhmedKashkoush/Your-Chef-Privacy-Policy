@@ -3,250 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Your Chef</title>
+    <title>Privacy Policy | Your Chef</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background-color: #2c3e50;
-            color: #fff;
+            background-color: transparent;
+            color: #000;
             padding: 20px;
             text-align: center;
+            font-size: 24px;
         }
-        h1 {
-            font-size: 2.5rem;
-            margin: 0;
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
         }
-        h2 {
-            font-size: 1.75rem;
-            color: #2c3e50;
-            margin-top: 30px;
-        }
-        p, ul {
-            font-size: 1rem;
-            margin: 15px 0;
-            padding-left: 20px;
+        h1, h2 {
+            color: #FF7F27;
         }
         ul {
-            list-style-type: disc;
+            list-style-type: none;
+            padding: 0;
         }
         li {
             margin-bottom: 10px;
         }
-        .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 30px auto;
-            background-color: #fff;
-            padding: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
         footer {
             text-align: center;
-            padding: 20px;
-            background-color: #2c3e50;
+            background-color: #FF7F27;
             color: #fff;
-            position: fixed;
-            width: 100%;
+            padding: 10px 0;
+            font-size: 14px;
+            position: relative;
             bottom: 0;
+            width: 100%;
         }
-        .language-btn {
-            margin: 10px;
+        #language-toggle {
+            background-color: #FF7F27;
+            color: white;
             padding: 10px 20px;
-            background-color: #3498db;
-            color: #fff;
             border: none;
             cursor: pointer;
-            font-size: 1rem;
-            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
         }
-        .language-btn:hover {
-            background-color: #2980b9;
+        footer a {
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1 id="title">Privacy Policy for "Your Chef" Mobile App</h1>
-        <button class="language-btn" onclick="toggleLanguage()">
-            <span id="btn-text">Switch to Arabic</span>
-        </button>
-    </header>
 
-    <div class="container" id="content">
-        <p><strong id="effective-date">Effective Date:</strong> November 17, 2024</p>
+<header>
+    <span id="title">Privacy Policy | Your Chef</span>
+	<p>17/11/2024</p>
+<button id="language-toggle" onclick="toggleLanguage()">Switch to Arabic / التبديل إلى العربية</button>
+</header>
 
-        <h2 id="intro-heading">Introduction</h2>
-        <p id="intro-text">At "Your Chef," we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains what information we collect, how we use it, and how we protect it. By using our app, you agree to the collection and use of information in accordance with this policy.</p>
+<div class="container">
+    <h1 id="intro-heading">Introduction</h1>
+    <p id="intro-text">At "Your Chef", we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains the information we collect, how we use it, and how we protect it. By using our app, you consent to the collection and use of information in accordance with this policy.</p>
 
-        <h2 id="section1-heading">1. Information We Collect</h2>
-        <p id="section1-text">We collect the following types of personal information:</p>
-        <ul id="section1-list">
-            <li><strong>Personal Identification Information:</strong> Name, email address, phone number</li>
-            <li><strong>Payment Information:</strong> Credit/debit card details for processing orders</li>
-            <li><strong>Location Data:</strong> Used for delivery purposes and to enhance app functionality</li>
-        </ul>
+    <h2 id="section1-heading">1. Information We Collect</h2>
+    <p id="section1-text">We collect the following types of personal information:</p>
+    <ul id="section1-list">
+        <li>Personal Identification Information: Name, email address, phone number</li>
+        <li>Payment Information: Credit/debit card details for processing orders</li>
+        <li>Location Data: Used for delivery purposes and to enhance app functionality</li>
+    </ul>
 
-        <h2 id="section2-heading">2. How We Collect Your Information</h2>
-        <p id="section2-text">We collect information from you in the following ways:</p>
-        <ul id="section2-list">
-            <li><strong>Directly from you:</strong> When you sign up for an account, place an order, or provide your details for other services.</li>
-            <li><strong>Automatically:</strong> Through device permissions, such as location data for delivery purposes.</li>
-            <li><strong>From third-party services:</strong> Payment processors or other partners involved in processing your transactions or providing services.</li>
-        </ul>
+    <h2 id="section2-heading">2. How We Collect Your Information</h2>
+    <p id="section2-text">We collect information from you in the following ways:</p>
+    <ul id="section2-list">
+        <li>Directly from you: When you sign up for an account, place an order, or provide your details for other services.</li>
+        <li>Automatically: Through device permissions, such as location data for delivery purposes.</li>
+        <li>From third-party services: Payment processors or other partners involved in processing your transactions or providing services.</li>
+    </ul>
 
-        <h2 id="section3-heading">3. How We Use Your Information</h2>
-        <p id="section3-text">We use your personal information for the following purposes:</p>
-        <ul id="section3-list">
-            <li>To process your orders and deliver meals</li>
-            <li>To communicate with you about updates, customer service inquiries, and other necessary notifications related to your orders</li>
-            <li>To enhance and improve the functionality of the app</li>
-        </ul>
+    <h2 id="section3-heading">3. How We Use Your Information</h2>
+    <p id="section3-text">We use your personal information for the following purposes:</p>
+    <ul id="section3-list">
+        <li>To process your orders and deliver meals</li>
+        <li>To communicate with you about updates, customer service inquiries, and other necessary notifications related to your orders</li>
+        <li>To enhance and improve the functionality of the app</li>
+    </ul>
 
-        <h2 id="section4-heading">4. Sharing Your Information</h2>
-        <p id="section4-text">We may share your personal information with the following third parties:</p>
-        <ul id="section4-list">
-            <li><strong>Payment Processors:</strong> To complete financial transactions</li>
-            <li><strong>Delivery Partners:</strong> To fulfill your meal orders</li>
-        </ul>
-        <p id="section4-footer">We do not share your personal information with third-party marketing partners or advertisers.</p>
+    <h2 id="section4-heading">4. Sharing Your Information</h2>
+    <p id="section4-text">We may share your personal information with the following third parties:</p>
+    <ul id="section4-list">
+        <li>Payment Processors: To complete financial transactions</li>
+        <li>Delivery Partners: To fulfill your meal orders</li>
+    </ul>
+    <p id="section4-footer">We do not share your personal information with third-party marketing partners or advertisers.</p>
 
-        <h2 id="section5-heading">5. How We Protect Your Information</h2>
-        <p id="section5-text">We protect your personal information by:</p>
-        <ul id="section5-list">
-            <li>Storing it securely in a protected database</li>
-            <li>Limiting access to personal data to authorized personnel only</li>
-            <li>Using encryption for secure data transmission (e.g., SSL/TLS) when needed</li>
-        </ul>
+    <h2 id="section5-heading">5. How We Protect Your Information</h2>
+    <p id="section5-text">We protect your personal information by:</p>
+    <ul id="section5-list">
+        <li>Storing it securely in a protected database</li>
+        <li>Limiting access to personal data to authorized personnel only</li>
+        <li>Using encryption for secure data transmission (e.g., SSL/TLS) when needed</li>
+    </ul>
 
-        <h2 id="section6-heading">6. Data Retention</h2>
-        <p id="section6-text">We retain your personal information for as long as you have an active account or until you request its deletion. If you choose to delete your account, we will remove your data from our systems, subject to applicable legal requirements.</p>
+    <h2 id="section6-heading">6. Data Retention</h2>
+    <p id="section6-text">We retain your personal information for as long as you have an active account or until you request its deletion. If you choose to delete your account, we will remove your data from our systems, subject to applicable legal requirements.</p>
 
-        <h2 id="section7-heading">7. Cookies and Tracking Technologies</h2>
-        <p id="section7-text">We use cookies only for authentication purposes, such as maintaining your session while you use the app. We do not use cookies for tracking user behavior or for advertising.</p>
+    <h2 id="section7-heading">7. Cookies and Tracking Technologies</h2>
+    <p id="section7-text">We use cookies only for authentication purposes, such as maintaining your session while you use the app. We do not use cookies for tracking user behavior or for advertising.</p>
 
-        <h2 id="section8-heading">8. Managing and Deleting Your Information</h2>
-        <p id="section8-text">You can manage or delete your personal information at any time by visiting the app's settings or account preferences.</p>
+    <h2 id="section8-heading">8. Managing and Deleting Your Information</h2>
+    <p id="section8-text">You can manage or delete your personal information at any time by visiting the app's settings or account preferences.</p>
 
-        <h2 id="section9-heading">9. Children’s Privacy</h2>
-        <p id="section9-text">"Your Chef" does not knowingly collect information from children under the age of 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such data.</p>
+    <h2 id="section9-heading">9. Children’s Privacy</h2>
+    <p id="section9-text">"Your Chef" does not knowingly collect information from children under the age of 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such data.</p>
 
-        <h2 id="section10-heading">10. Opting-Out of Marketing Communications</h2>
-        <p id="section10-text">If you no longer wish to receive marketing communications, you may opt-out by deleting your account. You can manage your preferences through the app settings.</p>
+    <h2 id="section10-heading">10. Opting-Out of Marketing Communications</h2>
+    <p id="section10-text">If you no longer wish to receive marketing communications, you may opt-out by deleting your account. You can manage your preferences through the app settings.</p>
 
-        <h2 id="section11-heading">11. Changes to This Privacy Policy</h2>
-        <p id="section11-text">We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Users will be notified of significant changes via in-app notifications.</p>
+    <h2 id="section11-heading">11. Changes to This Privacy Policy</h2>
+    <p id="section11-text">We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Users will be notified of significant changes via in-app notifications.</p>
 
-        <h2 id="section12-heading">12. Contact Us</h2>
-        <p id="section12-text">If you have any questions about this Privacy Policy or how we handle your personal information, please contact us at:</p>
-        <ul id="section12-list">
-            <li><strong>Email:</strong> <a href="mailto:ahmedkashkoush3@gmail.com">ahmedkashkoush3@gmail.com</a></li>
-        </ul>
-    </div>
+    <h2 id="section12-heading">12. Contact Us</h2>
+    <p id="section12-text">If you have any questions about this Privacy Policy or how we handle your personal information, please contact us at:</p>
+    <ul id="section12-list">
+        <li>Email: <a href="mailto:ahmedkashkoush3@gmail.com">ahmedkashkoush3@gmail.com</a></li>
+    </ul>
+</div>
 
-    <footer>
-        <p>&copy; 2024 Your Chef. All rights reserved.</p>
-    </footer>
+<footer id="footer">
+    <p id="footer-text">Privacy Policy | Your Chef - All Rights Reserved</p>
+</footer>
 
-    <script>
-        const englishContent = {
-            title: "Privacy Policy for \"Your Chef\" Mobile App",
-            effectiveDate: "Effective Date: November 17, 2024",
-            introHeading: "Introduction",
-            introText: "At \"Your Chef,\" we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains what information we collect, how we use it, and how we protect it. By using our app, you agree to the collection and use of information in accordance with this policy.",
-            section1Heading: "1. Information We Collect",
-            section1Text: "We collect the following types of personal information:",
-            section1List: [
-                "Personal Identification Information: Name, email address, phone number",
-                "Payment Information: Credit/debit card details for processing orders",
-                "Location Data: Used for delivery purposes and to enhance app functionality"
-            ],
-            section2Heading: "2. How We Collect Your Information",
-            section2Text: "We collect information from you in the following ways:",
-            section2List: [
-                "Directly from you: When you sign up for an account, place an order, or provide your details for other services.",
-                "Automatically: Through device permissions, such as location data for delivery purposes.",
-                "From third-party services: Payment processors or other partners involved in processing your transactions or providing services."
-            ],
-            // Add other sections similarly
-            btnText: "Switch to Arabic"
-        };
+<script>
+    const englishContent = {
+        title: "Privacy Policy | Your Chef",
+        introHeading: "Introduction",
+        introText: "At \"Your Chef\", we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains the information we collect, how we use it, and how we protect it. By using our app, you consent to the collection and use of information in accordance with this policy.",
+        section1Heading: "1. Information We Collect",
+        section1Text: "We collect the following types of personal information:",
+        section1List: [
+            "Personal Identification Information: Name, email address, phone number",
+            "Payment Information: Credit/debit card details for processing orders",
+            "Location Data: Used for delivery purposes and to enhance app functionality"
+        ],
+        section2Heading: "2. How We Collect Your Information",
+        section2Text: "We collect information from you in the following ways:",
+        section2List: [
+            "Directly from you: When you sign up for an account, place an order, or provide your details for other services.",
+            "Automatically: Through device permissions, such as location data for delivery purposes.",
+            "From third-party services: Payment processors or other partners involved in processing your transactions or providing services."
+        ],
+        section3Heading: "3. How We Use Your Information",
+        section3Text: "We use your personal information for the following purposes:",
+        section3List: [
+            "To process your orders and deliver meals",
+            "To communicate with you about updates, customer service inquiries, and other necessary notifications related to your orders",
+            "To enhance and improve the functionality of the app"
+        ],
+        section4Heading: "4. Sharing Your Information",
+        section4Text: "We may share your personal information with the following third parties:",
+        section4List: [
+            "Payment Processors: To complete financial transactions",
+            "Delivery Partners: To fulfill your meal orders"
+        ],
+        section4Footer: "We do not share your personal information with third-party marketing partners or advertisers.",
+        section5Heading: "5. How We Protect Your Information",
+        section5Text: "We protect your personal information by:",
+        section5List: [
+            "Storing it securely in a protected database",
+            "Limiting access to personal data to authorized personnel only",
+            "Using encryption for secure data transmission (e.g., SSL/TLS) when needed"
+        ],
+        section6Heading: "6. Data Retention",
+        section6Text: "We retain your personal information for as long as you have an active account or until you request its deletion. If you choose to delete your account, we will remove your data from our systems, subject to applicable legal requirements.",
+        section7Heading: "7. Cookies and Tracking Technologies",
+        section7Text: "We use cookies only for authentication purposes, such as maintaining your session while you use the app. We do not use cookies for tracking user behavior or for advertising.",
+        section8Heading: "8. Managing and Deleting Your Information",
+        section8Text: "You can manage or delete your personal information at any time by visiting the app's settings or account preferences.",
+        section9Heading: "9. Children’s Privacy",
+        section9Text: "\"Your Chef\" does not knowingly collect information from children under the age of 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such data.",
+        section10Heading: "10. Opting-Out of Marketing Communications",
+        section10Text: "If you no longer wish to receive marketing communications, you may opt-out by deleting your account. You can manage your preferences through the app settings.",
+        section11Heading: "11. Changes to This Privacy Policy",
+        section11Text: "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Users will be notified of significant changes via in-app notifications.",
+        section12Heading: "12. Contact Us",
+        section12Text: "If you have any questions about this Privacy Policy or how we handle your personal information, please contact us at:",
+        section12List: [
+            "Email: <a href=\"mailto:ahmedkashkoush3@gmail.com\">ahmedkashkoush3@gmail.com</a>"
+        ],
+        footerText: "Privacy Policy | Your Chef - All Rights Reserved"
+    };
 
-        const arabicContent = {
-            title: "سياسة الخصوصية لتطبيق \"Your Chef\" المحمول",
-            effectiveDate: "تاريخ السريان: 17 نوفمبر 2024",
-            introHeading: "مقدمة",
-            introText: "في \"Your Chef\"، نحن نقدر خصوصيتك وملتزمون بحماية المعلومات الشخصية التي تشاركها معنا. تشرح سياسة الخصوصية هذه المعلومات التي نجمعها، كيفية استخدامها، وكيفية حمايتها. باستخدام تطبيقنا، فإنك توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة.",
-            section1Heading: "1. المعلومات التي نجمعها",
-            section1Text: "نقوم بجمع الأنواع التالية من المعلومات الشخصية:",
-            section1List: [
-                "معلومات التعريف الشخصية: الاسم، عنوان البريد الإلكتروني، رقم الهاتف",
-                "معلومات الدفع: تفاصيل بطاقة الائتمان / الخصم لمعالجة الطلبات",
-                "بيانات الموقع: تُستخدم لأغراض التسليم ولتحسين وظائف التطبيق"
-            ],
-            section2Heading: "2. كيفية جمع معلوماتك",
-            section2Text: "نقوم بجمع المعلومات منك بطرق مختلفة:",
-            section2List: [
-                "مباشرة منك: عندما تقوم بالتسجيل للحصول على حساب أو تقديم طلب أو تقديم تفاصيلك لخدمات أخرى.",
-                "تلقائيًا: من خلال إذونات الجهاز مثل بيانات الموقع لأغراض التسليم.",
-                "من خدمات الطرف الثالث: معالجات الدفع أو شركاء آخرين يشاركون في معالجة المعاملات أو تقديم الخدمات."
-            ],
-            // Add other sections similarly
-            btnText: "Switch to English"
-        };
+    const arabicContent = {
+        title: "سياسة الخصوصية | يور شيف",
+        introHeading: "مقدمة",
+        introText: "في \"يور شيف\"، نولي خصوصيتك أهمية كبيرة وملتزمون بحماية المعلومات الشخصية التي تشاركها معنا. تشرح سياسة الخصوصية هذه المعلومات التي نجمعها، كيفية استخدامها، وكيفية حمايتها. باستخدامك لتطبيقنا، فإنك توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة.",
+        section1Heading: "1. المعلومات التي نجمعها",
+        section1Text: "نحن نجمع الأنواع التالية من المعلومات الشخصية:",
+        section1List: [
+            "معلومات التعريف الشخصية: الاسم، عنوان البريد الإلكتروني، رقم الهاتف",
+            "معلومات الدفع: تفاصيل بطاقة الائتمان/الخصم لمعالجة الطلبات",
+            "بيانات الموقع: تُستخدم لأغراض التوصيل ولتحسين وظائف التطبيق"
+        ],
+        section2Heading: "2. كيف نجمع معلوماتك",
+        section2Text: "نجمع المعلومات منك بطرق مختلفة:",
+        section2List: [
+            "مباشرة منك: عندما تقوم بالتسجيل في حساب، أو تقديم طلب، أو تقديم تفاصيلك لخدمات أخرى.",
+            "تلقائيًا: من خلال أذونات الجهاز، مثل بيانات الموقع لأغراض التوصيل.",
+            "من الخدمات الطرف الثالث: معالجات الدفع أو الشركاء الآخرين الذين يشاركون في معالجة معاملاتك أو تقديم الخدمات."
+        ],
+        section3Heading: "3. كيف نستخدم معلوماتك",
+        section3Text: "نستخدم معلوماتك الشخصية للأغراض التالية:",
+        section3List: [
+            "لمعالجة طلباتك وتوصيل الوجبات",
+            "للتواصل معك بشأن التحديثات واستفسارات خدمة العملاء والإشعارات الأخرى المتعلقة بالطلبات",
+            "لتحسين وظائف التطبيق"
+        ],
+        section4Heading: "4. مشاركة معلوماتك",
+        section4Text: "قد نشارك معلوماتك الشخصية مع الأطراف الثالثة التالية:",
+        section4List: [
+            "معالجو الدفع: لإتمام المعاملات المالية",
+            "شركاء التوصيل: لتنفيذ طلباتك"
+        ],
+        section4Footer: "نحن لا نشارك معلوماتك الشخصية مع شركاء تسويق أو معلنين خارجيين.",
+        section5Heading: "5. كيف نحمي معلوماتك",
+        section5Text: "نحمي معلوماتك الشخصية عن طريق:",
+        section5List: [
+            "تخزينها بأمان في قاعدة بيانات محمية",
+            "تقييد الوصول إلى البيانات الشخصية للأفراد المصرح لهم فقط",
+            "استخدام التشفير لنقل البيانات بشكل آمن (مثل SSL/TLS) عند الحاجة"
+        ],
+        section6Heading: "6. الاحتفاظ بالبيانات",
+        section6Text: "نحتفظ بمعلوماتك الشخصية طالما كان لديك حساب نشط أو حتى تطلب حذفها. إذا اخترت حذف حسابك، فإننا سنزيل بياناتك من أنظمتنا، مع مراعاة المتطلبات القانونية المعمول بها.",
+        section7Heading: "7. ملفات تعريف الارتباط والتقنيات الأخرى للتتبع",
+        section7Text: "نستخدم ملفات تعريف الارتباط فقط لأغراض المصادقة، مثل الحفاظ على جلستك أثناء استخدام التطبيق. نحن لا نستخدم ملفات تعريف الارتباط لتتبع سلوك المستخدم أو للإعلانات.",
+        section8Heading: "8. إدارة وحذف معلوماتك",
+        section8Text: "يمكنك إدارة أو حذف معلوماتك الشخصية في أي وقت من خلال إعدادات التطبيق أو تفضيلات الحساب.",
+        section9Heading: "9. خصوصية الأطفال",
+        section9Text: "\"يور شيف\" لا يجمع معلومات من الأطفال دون سن 13 عامًا. إذا اكتشفنا أن طفلاً دون 13 عامًا قد قدم لنا معلومات شخصية، سنتخذ خطوات لحذف تلك البيانات.",
+        section10Heading: "10. إلغاء الاشتراك في رسائل التسويق",
+        section10Text: "إذا كنت لا ترغب في تلقي رسائل تسويق، يمكنك إلغاء الاشتراك عن طريق حذف حسابك. يمكنك إدارة تفضيلاتك من خلال إعدادات التطبيق.",
+        section11Heading: "11. التغييرات في سياسة الخصوصية هذه",
+        section11Text: "قد نقوم بتحديث سياسة الخصوصية هذه بشكل دوري لتعكس التغييرات في ممارساتنا أو متطلبات قانونية. سيتم إخطار المستخدمين بالتغييرات الكبيرة من خلال إشعارات في التطبيق.",
+        section12Heading: "12. اتصل بنا",
+        section12Text: "إذا كان لديك أي أسئلة بشأن سياسة الخصوصية هذه أو كيفية تعاملنا مع معلوماتك الشخصية، يمكنك الاتصال بنا على:",
+        section12List: [
+            "البريد الإلكتروني: <a href=\"mailto:ahmedkashkoush3@gmail.com\">ahmedkashkoush3@gmail.com</a>"
+        ],
+        footerText: "سياسة الخصوصية | يور شيف - جميع الحقوق محفوظة"
+    };
 
-        let currentLanguage = 'en';
+    let currentLanguage = 'en';
 
-        function toggleLanguage() {
-            if (currentLanguage === 'en') {
-                document.getElementById('title').innerText = arabicContent.title;
-                document.getElementById('effective-date').innerText = arabicContent.effectiveDate;
-                document.getElementById('intro-heading').innerText = arabicContent.introHeading;
-                document.getElementById('intro-text').innerText = arabicContent.introText;
-                document.getElementById('section1-heading').innerText = arabicContent.section1Heading;
-                document.getElementById('section1-text').innerText = arabicContent.section1Text;
-                document.getElementById('section1-list').innerHTML = arabicContent.section1List.map(item => `<li>${item}</li>`).join('');
-                document.getElementById('section2-heading').innerText = arabicContent.section2Heading;
-                document.getElementById('section2-text').innerText = arabicContent.section2Text;
-                document.getElementById('section2-list').innerHTML = arabicContent.section2List.map(item => `<li>${item}</li>`).join('');
-                // Repeat for other sections
-                
-                document.getElementById('btn-text').innerText = arabicContent.btnText;
-                currentLanguage = 'ar';
-            } else {
-                document.getElementById('title').innerText = englishContent.title;
-                document.getElementById('effective-date').innerText = englishContent.effectiveDate;
-                document.getElementById('intro-heading').innerText = englishContent.introHeading;
-                document.getElementById('intro-text').innerText = englishContent.introText;
-                document.getElementById('section1-heading').innerText = englishContent.section1Heading;
-                document.getElementById('section1-text').innerText = englishContent.section1Text;
-                document.getElementById('section1-list').innerHTML = englishContent.section1List.map(item => `<li>${item}</li>`).join('');
-                document.getElementById('section2-heading').innerText = englishContent.section2Heading;
-                document.getElementById('section2-text').innerText = englishContent.section2Text;
-                document.getElementById('section2-list').innerHTML = englishContent.section2List.map(item => `<li>${item}</li>`).join('');
-                // Repeat for other sections
-                
-                document.getElementById('btn-text').innerText = englishContent.btnText;
-                currentLanguage = 'en';
-            }
+    function toggleLanguage() {
+        if (currentLanguage === 'en') {
+            document.documentElement.setAttribute('dir', 'rtl');
+            document.getElementById('title').innerText = arabicContent.title;
+            document.getElementById('intro-heading').innerText = arabicContent.introHeading;
+            document.getElementById('intro-text').innerText = arabicContent.introText;
+            document.getElementById('section1-heading').innerText = arabicContent.section1Heading;
+            document.getElementById('section1-text').innerText = arabicContent.section1Text;
+            document.getElementById('section1-list').innerHTML = arabicContent.section1List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section2-heading').innerText = arabicContent.section2Heading;
+            document.getElementById('section2-text').innerText = arabicContent.section2Text;
+            document.getElementById('section2-list').innerHTML = arabicContent.section2List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section3-heading').innerText = arabicContent.section3Heading;
+            document.getElementById('section3-text').innerText = arabicContent.section3Text;
+            document.getElementById('section3-list').innerHTML = arabicContent.section3List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section4-heading').innerText = arabicContent.section4Heading;
+            document.getElementById('section4-text').innerText = arabicContent.section4Text;
+            document.getElementById('section4-list').innerHTML = arabicContent.section4List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section4-footer').innerText = arabicContent.section4Footer;
+            document.getElementById('section5-heading').innerText = arabicContent.section5Heading;
+            document.getElementById('section5-text').innerText = arabicContent.section5Text;
+            document.getElementById('section5-list').innerHTML = arabicContent.section5List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section6-heading').innerText = arabicContent.section6Heading;
+            document.getElementById('section6-text').innerText = arabicContent.section6Text;
+            document.getElementById('section7-heading').innerText = arabicContent.section7Heading;
+            document.getElementById('section7-text').innerText = arabicContent.section7Text;
+            document.getElementById('section8-heading').innerText = arabicContent.section8Heading;
+            document.getElementById('section8-text').innerText = arabicContent.section8Text;
+            document.getElementById('section9-heading').innerText = arabicContent.section9Heading;
+            document.getElementById('section9-text').innerText = arabicContent.section9Text;
+            document.getElementById('section10-heading').innerText = arabicContent.section10Heading;
+            document.getElementById('section10-text').innerText = arabicContent.section10Text;
+            document.getElementById('section11-heading').innerText = arabicContent.section11Heading;
+            document.getElementById('section11-text').innerText = arabicContent.section11Text;
+            document.getElementById('section12-heading').innerText = arabicContent.section12Heading;
+            document.getElementById('section12-text').innerText = arabicContent.section12Text;
+            document.getElementById('section12-list').innerHTML = arabicContent.section12List.join('');
+            document.getElementById('footer-text').innerHTML = arabicContent.footerText;
+            document.getElementById('language-toggle').innerText = "Switch to English / التبديل إلى الإنجليزية";
+            currentLanguage = 'ar';
+        } else {
+            document.documentElement.setAttribute('dir', 'ltr');
+            document.getElementById('title').innerText = englishContent.title;
+            document.getElementById('intro-heading').innerText = englishContent.introHeading;
+            document.getElementById('intro-text').innerText = englishContent.introText;
+            document.getElementById('section1-heading').innerText = englishContent.section1Heading;
+            document.getElementById('section1-text').innerText = englishContent.section1Text;
+            document.getElementById('section1-list').innerHTML = englishContent.section1List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section2-heading').innerText = englishContent.section2Heading;
+            document.getElementById('section2-text').innerText = englishContent.section2Text;
+            document.getElementById('section2-list').innerHTML = englishContent.section2List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section3-heading').innerText = englishContent.section3Heading;
+            document.getElementById('section3-text').innerText = englishContent.section3Text;
+            document.getElementById('section3-list').innerHTML = englishContent.section3List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section4-heading').innerText = englishContent.section4Heading;
+            document.getElementById('section4-text').innerText = englishContent.section4Text;
+            document.getElementById('section4-list').innerHTML = englishContent.section4List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section4-footer').innerText = englishContent.section4Footer;
+            document.getElementById('section5-heading').innerText = englishContent.section5Heading;
+            document.getElementById('section5-text').innerText = englishContent.section5Text;
+            document.getElementById('section5-list').innerHTML = englishContent.section5List.map(item => `<li>${item}</li>`).join('');
+            document.getElementById('section6-heading').innerText = englishContent.section6Heading;
+            document.getElementById('section6-text').innerText = englishContent.section6Text;
+            document.getElementById('section7-heading').innerText = englishContent.section7Heading;
+            document.getElementById('section7-text').innerText = englishContent.section7Text;
+            document.getElementById('section8-heading').innerText = englishContent.section8Heading;
+            document.getElementById('section8-text').innerText = englishContent.section8Text;
+            document.getElementById('section9-heading').innerText = englishContent.section9Heading;
+            document.getElementById('section9-text').innerText = englishContent.section9Text;
+            document.getElementById('section10-heading').innerText = englishContent.section10Heading;
+            document.getElementById('section10-text').innerText = englishContent.section10Text;
+            document.getElementById('section11-heading').innerText = englishContent.section11Heading;
+            document.getElementById('section11-text').innerText = englishContent.section11Text;
+            document.getElementById('section12-heading').innerText = englishContent.section12Heading;
+            document.getElementById('section12-text').innerText = englishContent.section12Text;
+            document.getElementById('section12-list').innerHTML = englishContent.section12List.join('');
+            document.getElementById('footer-text').innerHTML = englishContent.footerText;
+            document.getElementById('language-toggle').innerText = "Switch to Arabic / التبديل إلى العربية";
+            currentLanguage = 'en';
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
